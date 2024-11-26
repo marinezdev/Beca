@@ -1,0 +1,184 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="page-title overlay" style="background-image: url(../../images/background/seguro_VD.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="text-white font-weight-bold" style="background-color:#8080804a">¿Quienes somos?</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="@Url.Action("Index", "Home")">BECA</a>
+                    </li>
+                    <li>¿Quienes somos?</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- philosophy -->
+<section class="section" style="background-image: url('../../images/Marca-de-agua.png');">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 order-2 order-lg-1">
+                <h5 class="section-title-sm">Acerca de Nosotros</h5>
+                <h2 class="section-title section-title-border-half">Seguros BECA</h2>
+                <p>
+                    La historia del Seguro se remonta a las antiguas civilizaciones de donde se utilizaban prácticas que constituyeron los inicios de nuestro actual sistema de Seguros.
+                    El Seguro de Incendio surgió más tarde en el siglo XVII, después que un incendio destruyó la mayor parte de Londres
+                </p>
+                <p>
+                    La historia del Seguro se remonta a las antiguas civilizaciones de donde se utilizaban prácticas que constituyeron los inicios de nuestro actual sistema de Seguros.
+                    El Seguro de Incendio surgió más tarde en el siglo XVII, después que un incendio destruyó la mayor parte de Londres
+                </p>
+                @*<a href="service.html" class="btn btn-primary">Explore More</a>*@
+            </div>
+            <!-- philosophy image -->
+            <div class="col-lg-5 align-self-center order-1 order-lg-2 mb-md-50">
+                <img class="img-fluid w-100" src="~/images/background/familia.jpg" alt="philosophy-image">
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /philosophy -->
+<!-- skill -->
+<section class="section" style="background-image: url('../../images/Marca-de-agua.png');background-repeat: space;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h5 class="section-title-sm">El mejor servicio</h5>
+                <h2 class="section-title section-title-border-half">Por qué elegirnos</h2>
+            </div>
+            <!-- accordion -->
+            <div class="col-lg-6">
+                <div id="accordion" class="mb-md-50">
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseOne">
+                                <i class="ti-minus text-primary mr-2"></i> Misión
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                La visión marca una meta final hacia donde quiere llegar la organización en el futuro. Por su parte, la misión es el camino a través 
+                                del cual los miembros de la empresa u organización harán realidad esa visión a través de los objetivos del día a día.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="collapsed card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseTwo">
+                                <i class="ti-plus text-primary mr-2"></i> Visión
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                La visión describe una expectativa ideal sobre lo que se espera que la organización sea o alcance en un futuro. Debe ser realista, pero puede ser ambiciosa; 
+                                su función es guiar y motivar al grupo para continuar con el trabajo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="collapsed card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseThree">
+                                <i class="ti-plus text-primary mr-2"></i> Experiencia
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                La experiencia es la forma de conocimiento que se produce a partir de estas vivencias u observaciones. ... Otros usos del término refieren a la práctica prolongada que proporciona la habilidad para hacer algo, 
+                                al acontecimiento vivido por una persona y al conocimiento general adquirido por las situaciones vividas..
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- progressbar -->
+            <div class="col-lg-6">
+                <div class="progressbar">
+                    <h5 class="progressbar-title">Consultas</h5>
+                    <div class="progress" data-percent="85%">
+                        <div class="progress-bar progress-bar-striped" style="width: 85%;">
+                            <div class="progress-bar-value">85%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progressbar">
+                    <h5 class="progressbar-title">Negocio</h5>
+                    <div class="progress" data-percent="75%">
+                        <div class="progress-bar progress-bar-striped" style="width: 75%;">
+                            <div class="progress-bar-value">75%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progressbar">
+                    <h5 class="progressbar-title">Asesorías</h5>
+                    <div class="progress" data-percent="90%">
+                        <div class="progress-bar progress-bar-striped" style="width: 90%;">
+                            <div class="progress-bar-value">90%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progressbar">
+                    <h5 class="progressbar-title">Promoción</h5>
+                    <div class="progress" data-percent="75%">
+                        <div class="progress-bar progress-bar-striped" style="width: 75%;">
+                            <div class="progress-bar-value">75%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /skill -->
+
+<section class="fun-facts overlay-dark section-sm" style="background-image: url(../../images/background/cta.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                <div class="d-flex flex-sm-row flex-column justify-content-lg-center align-items-center text-center text-sm-left">
+                    <i class="round-icon ti-server mr-sm-3 mr-0 mb-3 mb-sm-0"></i>
+                    <div class="text-center text-sm-left">
+                        <h2 class="count text-white mb-0" data-count="230">0</h2>
+                        <p class="text-white mb-0">Consultas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                <div class="d-flex flex-sm-row flex-column justify-content-lg-center align-items-center text-center text-sm-left">
+                    <i class="round-icon ti-face-smile mr-sm-3 mr-0 mb-3 mb-sm-0"></i>
+                    <div class="text-center text-sm-left">
+                        <h2 class="count text-white mb-0" data-count="789">0</h2>
+                        <p class="text-white mb-0">Negocio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                <div class="d-flex flex-sm-row flex-column justify-content-lg-center align-items-center text-center text-sm-left">
+                    <i class="round-icon ti-thumb-up mr-sm-3 mr-0 mb-3 mb-sm-0"></i>
+                    <div class="text-center text-sm-left">
+                        <h2 class="count text-white mb-0" data-count="580">0</h2>
+                        <p class="text-white mb-0">Asesorías</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                <div class="d-flex flex-sm-row flex-column justify-content-lg-center align-items-center text-center text-sm-left">
+                    <i class="round-icon ti-cup mr-sm-3 mr-0 mb-3 mb-sm-0"></i>
+                    <div class="text-center text-sm-left">
+                        <h2 class="count text-white mb-0" data-count="130">0</h2>
+                        <p class="text-white mb-0">Promoción</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 

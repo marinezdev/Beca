@@ -1,0 +1,211 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="page-title overlay" style="background-image: url(../../images/banner/banner-7.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="text-white font-weight-bold" style="background-color:#8080804a">Seguro de autos</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="@Url.Action("Index", "Home")">BECA</a>
+                    </li>
+                    <li>Seguro de autos </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- philosophy -->
+<section class="section"  style="background-image: url('../../images/Marca-de-agua.png'); background-repeat: round;">
+    <div class="container">
+        <div class="row">
+            <!-- philosophy video -->
+            <div class="col-lg-5 align-self-center">
+                <div class="overlay overlay-rounded mb-md-50">
+                    <img class="img-fluid w-100 rounded" src="images/about/about-video-thumbnail.jpg" alt="video-thumbnail">
+                    <a class="play-icon popup-youtube centralized" href="https://www.youtube.com/watch?v=mr9kK0_7x08"><i class="ti-control-play"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <h5 class="section-title-sm">Seguro</h5>
+                <h2 class="section-title section-title-border-half">Seguro de autos</h2>
+                <p>
+                    Ampara los servicios de asistencia en viaje, con motivo de un accidente automovilístico o avería.
+                    <br />
+                    Ampara los daños o pérdidas materiales que sufra tu vehículo a consecuencia de un siniestro.
+                    <br />
+                    Ampara los servicios de abogados, para su asistencia legal y representación ante las autoridades, a consecuencia de un percance vial.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- philosophy -->
+
+<section class="about section-sm overlay" style="background-image: url(images/background/about-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 ml-auto">
+                <div class="rounded p-sm-5 px-3 py-5 bg-secondary">
+                    <h3 class="section-title section-title-border-half text-white">Aprovecha esta oferta </h3>
+                    <p class="text-white mb-40">
+                        Ampara los servicios de asistencia en viaje, con motivo de un accidente automovilístico o avería.
+                        Ampara los daños o pérdidas materiales que sufra tu vehículo a consecuencia de un siniestro.
+                    </p>
+                    <div>
+                        <ul class="d-inline-block pl-0">
+                            <li class="font-secondary mb-10 text-white float-sm-left mr-sm-5">
+                                <i class="text-primary mr-2 ti-arrow-circle-right"></i>Oferta
+                            </li>
+                            <li class="font-secondary mb-10 text-white">
+                                <i class="text-primary mr-2 ti-arrow-circle-right"></i>Oferta
+                            </li>
+                            <li class="font-secondary mb-10 text-white">
+                                <i class="text-primary mr-2 ti-arrow-circle-right"></i>Oferta
+                            </li>
+                        </ul>
+                        <ul class="d-inline-block pl-0">
+                            <li class="font-secondary mb-10 text-white">
+                                <i class="text-primary mr-2 ti-arrow-circle-right"></i>Oferta
+                            </li>
+                            <li class="font-secondary mb-10 text-white">
+                                <i class="text-primary mr-2 ti-arrow-circle-right"></i>Oferta
+                            </li>
+                            <li class="font-secondary mb-10 text-white">
+                                <i class="text-primary mr-2 ti-arrow-circle-right"></i>Oferta
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-4">Mas información </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- skill -->
+<section class="section" style="background-image: url('../../images/Marca-de-agua.png'); background-repeat: round;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h5 class="section-title-sm">Información </h5>
+                <h2 class="section-title section-title-border-half">Seguro de autos</h2>
+            </div>
+            <!-- accordion -->
+            <div class="col-lg-12">
+                <div id="accordion" class="mb-md-50">
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseOne">
+                                <i class="ti-minus text-primary mr-2"></i> Asistencia vial
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                Ampara los servicios de asistencia en viaje, con motivo de un accidente automovilístico o avería.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="collapsed card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseTwo">
+                                <i class="ti-plus text-primary mr-2"></i> Daños materiales
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                Ampara los daños o pérdidas materiales que sufra tu vehículo a consecuencia de un siniestro.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="collapsed card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseThree">
+                                <i class="ti-plus text-primary mr-2"></i> Defensa legal
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                Ampara los servicios de abogados, para su asistencia legal y representación ante las autoridades, a consecuencia de un percance vial.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="collapsed card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseThree4">
+                                <i class="ti-plus text-primary mr-2"></i> Gastos médicos por ocupante
+                            </a>
+                        </div>
+                        <div id="collapseThree4" class="collapse" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                Ampara el pago de gastos médicos originados por lesiones corporales que sufra cualquier persona ocupante del vehículo, en accidentes automovilísticos.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="collapsed card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseThree5">
+                                <i class="ti-plus text-primary mr-2"></i> Muerte accidental
+                            </a>
+                        </div>
+                        <div id="collapseThree5" class="collapse" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                Ampara, en caso de siniestro, toda lesión corporal o fallecimiento que sufra el conductor del vehículo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="collapsed card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseThree6">
+                                <i class="ti-plus text-primary mr-2"></i> Responsabilidad civil
+                            </a>
+                        </div>
+                        <div id="collapseThree6" class="collapse" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                Ampara los daños a terceros en el que incurra el asegurado con el vehículo en la caratula de la póliza.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-header bg-gray border p-0">
+                            <a class="collapsed card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseThree7">
+                                <i class="ti-plus text-primary mr-2"></i> Responsabilidad civil bienes
+                            </a>
+                        </div>
+                        <div id="collapseThree7" class="collapse" data-parent="#accordion">
+                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                Esta cobertura ampara la responsabilidad civil en que incurra el Asegurado o cualquier persona con su consentimiento expreso o táctico use el vehículo asegurado y que a consecuencia de dicho uso cause daños materiales a terceros en sus bienes.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- progressbar -->
+        </div>
+    </div>
+</section>
+<!-- /skill -->
+
+
+<section class="cta overlay-primary py-50 text-center text-lg-left" style="background-image: url('../../images/background/cta.jpg');">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-6">
+                <h3 class="text-white">
+                    La seguridad se refleja
+                    en tu tranquilidad
+                </h3>
+            </div>
+            <div class="col-lg-6 text-lg-right align-self-center">
+                <a href="@Url.Action("Index", "Cotizar")" class="btn btn-light">CONTACTO</a>
+            </div>
+        </div>
+    </div>
+</section>
+
